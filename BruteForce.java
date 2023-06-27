@@ -16,6 +16,7 @@ public class BruteForce {
         }
         return null;
     }
+    
 
     public String bruteForce(String password, char[] chaine, int position) {
         if (position == password.length() - 1) {
